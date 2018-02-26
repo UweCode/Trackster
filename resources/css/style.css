@@ -45,10 +45,21 @@ h1 {
 }
 
 .search input {
+  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
+  padding-left:90%;
   border: none;
   color: rgb(191, 191, 191);
   padding: 0 5px;
   width: 100%;
+}
+
+.fa-times {
+  color: rgb(191, 191, 191);
+  position: relative;
+  left: -30px;
+  width: 0;
+  z-index: 999;
+  cursor: pointer;
 }
 
 .searchButton {
