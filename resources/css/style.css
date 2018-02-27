@@ -45,7 +45,6 @@ h1 {
 }
 
 .search input {
-  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
   padding-left:90%;
   border: none;
   color: rgb(191, 191, 191);
@@ -53,10 +52,16 @@ h1 {
   width: 100%;
 }
 
+#searchText:hover {
+  border: none;
+  cursor: pointer;
+}
+
 .fa-times {
   color: rgb(191, 191, 191);
   position: relative;
   left: -30px;
+  top: 1px; /* center x vertically */
   width: 0;
   z-index: 999;
   cursor: pointer;
@@ -70,4 +75,8 @@ h1 {
   padding: 6px;
   border-radius: 22px;
   width: 90%;
+}
+
+#cmdSearch:hover {
+  cursor: pointer;
 }
