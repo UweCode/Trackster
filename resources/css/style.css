@@ -7,7 +7,7 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-/* Header Section */
+/* Page Header Section */
 
 header {
   background-color: rgb(35, 2, 63);
@@ -79,4 +79,39 @@ h1 {
 
 #cmdSearch:hover {
   cursor: pointer;
+}
+
+/* Table Header Section */
+
+#tableHeader {
+  background-color: rgb(104, 0,255);
+  color: rgb(255, 255, 255);
+  min-width: 992px;
+}
+
+#tableHeader .col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  padding: 0 5px;
+}
+
+/* Table Section */
+
+#tableBody {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  min-width: 992px;
+}
+
+#tableBody .col {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  padding: 0 5px;
 }

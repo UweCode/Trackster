@@ -10,9 +10,6 @@ $(document).ready(function() {
 
 const API_KEY = "2df2103dfbff06449dce13e12a56ac4a";
 
-
-
-
 /* Trackster Object */
 
 var Trackster = {};
