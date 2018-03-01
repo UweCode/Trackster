@@ -115,3 +115,19 @@ h1 {
   height: 40px;
   padding: 0 5px;
 }
+
+.fa-play-circle-o {
+  color: rgb(255, 0, 171);
+  cursor: pointer;
+}
+
+#video {
+  display: none;
+}
+
+#videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
