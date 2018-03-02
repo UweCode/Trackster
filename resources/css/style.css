@@ -33,6 +33,7 @@ h1 {
   font-family: 'Righteous', cursive;
   margin: 0;
   padding: 0 0 5px;
+  transition: color 500ms linear;
 }
 
 .search {
